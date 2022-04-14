@@ -6,7 +6,7 @@
 html,
 body {
   height: 100%;
-  padding-bottom: 0;
+  padding-bottom: 0px;
   margin: 0;
 }
 
@@ -32,6 +32,12 @@ h3{
   text-align: center;
 }
 
+h5{
+
+  font-size: small;
+  color: #000;
+}
+
 #main{
   padding: 10px;
 }
@@ -48,7 +54,20 @@ h3{
   height: 120px;
   padding: 10px;
   margin: 0;
-;
+}
+
+.myphoto3 {
+  position: static;
+  height: 245px;
+  padding: 10px;
+  margin: 0;
+}
+
+.myphoto4 {
+  position: static;
+  height: 375px;
+  padding: 10px;
+  margin: 0;
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -57,22 +76,16 @@ h3{
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 5px;
-  background: #cdd4da;
+  padding: 2px;
+  background: #d0d3d6;
+  font-family: Ubuntu, sans-serif;
+  font-size: xx-small;
 }
 
 .navbar {
   padding: 5px;
   margin: 0;
-  background-color: #d7dee6;
+  background-color: #e3e9f0;
 }
 
-/* This CSS styles the ufo icon in the navbar */
-.nav-link {
-  color: rgb(58, 56, 56);
-}
-
-.navbar-brand {
-  color: rgb(58, 56, 56);
-}
 
