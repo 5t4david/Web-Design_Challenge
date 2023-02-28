@@ -22,7 +22,7 @@ Data is more powerful when we share it with others! Let's take what we've learne
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
+We'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
@@ -30,7 +30,7 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 For reference, see the ["Screenshots" section](#screenshots) below.
 
-The website must consist of 7 pages total, including:
+The website will consist of 7 pages total, including:
 
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
@@ -45,10 +45,10 @@ The website must consist of 7 pages total, including:
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
+    * The table will be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
+    * The data will come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
 
-The website must, at the top of every page, have a navigation menu that:
+The website will have a navigation menu at the top of every page that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
@@ -57,17 +57,13 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
 ### Considerations
 
-* You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
+* You may use the [weather data](located in https://github.com/5t4david/python-api-challenge)
 * You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-* Be sure to use a CSS media query for the navigation menu.
-* Be sure your website works at all window widths/sizes.
+* Deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
+* Use a CSS media query for the navigation menu.
+* make sure website works at all window widths/sizes.
 * Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
 
 ### Bonuses
@@ -134,7 +130,6 @@ Large screen:
 Small screen:
 ![nav menu small screen](Images/nav-sm.png)
 
-### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
-# Web-Design_Challenge
+David.A 2021
+### Web-Design_Challenge
