@@ -125,9 +125,11 @@ Small screen:
 #### <a id="navigation-menu"></a>Navigation menu
 
 Large screen:
+
 ![nav menu large screen](Images/nav-lg.png)
 
 Small screen:
+
 ![nav menu small screen](Images/nav-sm.png)
 
 
